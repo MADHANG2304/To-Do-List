@@ -1,0 +1,59 @@
+.bg-body-color {
+  background-color: #132440; 
+}
+.bg-white-color{
+    background-color: #fff;
+}
+
+.bg-gray-color{
+    background-color: #F5F2F2;
+}
+
+.custom-text-color {
+  color: #132440 !important;
+}
+
+
+.priority {
+  font-weight: bold;
+}
+
+.priority.Low {
+  color: green;
+}
+
+.priority.Medium {
+  color: orange;
+}
+
+.priority.High {
+  color: red;
+}
+
+.card-Low {
+  background-color: #d4f7d4;
+  border-left: 6px solid #0a5a0a;
+}
+
+.card-Medium {
+  background-color: #ffe9b8;
+  border-left: 6px solid #a65c00;
+}
+
+.card-High {
+  background-color: #ffd1d1;
+  border-left: 6px solid #8b0000;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card.completed {
+  opacity: 0.7;
+}
